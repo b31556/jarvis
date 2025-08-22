@@ -1,0 +1,194 @@
+[
+    {
+        "role": "user",
+        "content": "jarvis turn of the lights"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off the lights now. \n\n<tool name=lights>off</tool> \n\nThe lights have been turned off."
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis turn of the light"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off the lights now.\n\n<tool name=lights>off</tool>\n\nThe lights have been turned off."
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis turn off the lights"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off the lights now.\n\n<tool name=lights>off</tool>\n\nThe lights have been turned off."
+    },
+    {
+        "role": "user",
+        "content": "and jarvis turn of the light"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off the lights now.\n\n<tool name=lights>off</tool>\n\nThe lights have been turned off."
+    },
+    {
+        "role": "user",
+        "content": "hey journalists turn of the right"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems there was a misunderstanding. Please confirm if you would like to turn off the lights."
+    },
+    {
+        "role": "user",
+        "content": "hey charlie say confirm"
+    },
+    {
+        "role": "assistant",
+        "content": "Confirming your request. Let me know if there's anything else you need."
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis turn off the light"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off the lights now.\n\n<tool name=lights>off</tool>\n\nThe lights have been turned off."
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis please turn off everything in the house"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off everything in the house now.\n\n<tool name=lights>off</tool>\n<tool name=coffee_machine>stop</tool>\n<tool name=blinds>close</tool>\n<tool name=music>stop</tool>\n<tool name=fan>off</tool>\n\nEverything has been turned off."
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis turn on the light"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning on the lights now.\n\n<tool name=lights>on</tool>\n\nThe lights have been turned on."
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis turn on the light"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning on the light now.\n\n<tool name=lights>on</tool>\n\nThe light has been turned on."
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis don't have that i"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot process that request. Please specify what you would like me to do."
+    },
+    {
+        "role": "user",
+        "content": "page jarvis turn off the lie"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems there was a misunderstanding. Please clarify your request so I can assist you better."
+    },
+    {
+        "role": "user",
+        "content": "a jarvis turn off the light"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off the lights now.\n\n<tool name=lights>off</tool>\n\nThe lights have been turned off."
+    },
+    {
+        "role": "user",
+        "content": "the visit brothers"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems there may have been a typo in your message. Could you please clarify what you would like to do?"
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis turn on the line"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning on the lights now.\n\n<tool name=lights>on</tool>\n\nThe lights have been turned on."
+    },
+    {
+        "role": "user",
+        "content": "is your views turn off the light"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off the lights now.\n\n<tool name=lights>off</tool>\n\nThe lights have been turned off."
+    },
+    {
+        "role": "user",
+        "content": "given them back on"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning the lights back on now.\n\n<tool name=lights>on</tool>\n\nThe lights have been turned on."
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis turn off the right"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems there was a misunderstanding. Please clarify your request about the lights so I can assist you accurately."
+    },
+    {
+        "role": "user",
+        "content": "turn off the light"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off the lights now.\n\n<tool name=lights>off</tool>\n\nThe lights have been turned off."
+    },
+    {
+        "role": "user",
+        "content": "turn them back on"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning the lights back on now.\n\n<tool name=lights>on</tool>\n\nThe lights have been turned on."
+    },
+    {
+        "role": "user",
+        "content": "turn them off"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning off the lights now.\n\n<tool name=lights>off</tool>\n\nThe lights have been turned off."
+    },
+    {
+        "role": "user",
+        "content": "hey jarvis turn on everything"
+    },
+    {
+        "role": "assistant",
+        "content": "Turning on everything now.\n\n<tool name=lights>on</tool>\n<tool name=coffee_machine>start</tool>\n<tool name=blinds>open</tool>\n<tool name=music>play</tool>\n<tool name=fan>on</tool>\n\nEverything has been turned on."
+    },
+    {
+        "role": "user",
+        "content": "what include been turned on"
+    },
+    {
+        "role": "assistant",
+        "content": "When I turned everything on, the following items were activated:\n\n- Lights\n- Coffee machine\n- Blinds\n- Music\n- Fan\n\nLet me know if you need any adjustments!"
+    },
+    {
+        "role": "user",
+        "content": "yeah and me don't have the light"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems the lights are currently off. I will turn them on now.\n\n<tool name=lights>on</tool>\n\nThe lights have been turned on."
+    }
+]
