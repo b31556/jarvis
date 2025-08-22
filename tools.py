@@ -4,7 +4,10 @@ with open(".env") as f:
     for line in f:
         if line.startswith("HASSTOKEN"):
             hasstoken = line.split("=")[1].strip().strip('"')
-            break
+        elif line.startswith("OPENAI_API_KEY"):
+            openaikoen = line.split("=")[1].strip().strip('"')
+        elif line.startswith("HASSHOST"):
+            hasshost = line.split("=")[1].strip().strip('"')
 
 def use(name,value):
     if name == "lights":
@@ -14,7 +17,7 @@ def use(name,value):
 def light(value):
 
 
-    url = "http://jundev.eu:8123/api/services/light/" + ("turn_off" if value == "off" else "turn_on")
+    url = "http://{hasshost}/api/services/light/" + ("turn_off" if value == "off" else "turn_on")
     headers = {
         "Authorization": f"Bearer {hasstoken}",
         "Content-Type": "application/json"
